@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#requires fontmake and Skia Pathops https://github.com/fonttools/skia-pathops
+
+
 set -e
 
 
@@ -7,24 +10,16 @@ cd sources
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/static/ttf
-fontmake --keep-overlaps -g Anybody.glyphs -i -o ttf --output-dir ../fonts/static/ttf/
+fontmake --overlaps-backend pathops -g Anybody.glyphs -i -o ttf --output-dir ../fonts/static/ttf/
 
 mkdir -p ../fonts/static/otf
-fontmake --keep-overlaps -g Anybody.glyphs -i -o otf --output-dir ../fonts/static/otf/
-
-#echo "Generating VFs"
-#fontmake -g Anybody.glyphs -o variable --output-path ../fonts/Anybody[slnt,wght].ttf
-
-
-
-
+fontmake --overlaps-backend pathops -g Anybody.glyphs -i -o otf --output-dir ../fonts/static/otf/
 
 
 cd ..
 
 # ============================================================================
 # Autohinting ================================================================
-
 statics=$(ls fonts/static/ttf/*.ttf)
 echo hello
 for file in $statics; do
@@ -38,7 +33,6 @@ for file in $statics; do
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
 done
-
 
 # ============================================================================
 # Build woff2 fonts ==========================================================
@@ -81,34 +75,21 @@ cd sources
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
-fontmake --keep-overlaps -g Anybody.glyphs -o variable --output-path ../fonts/variable/AnybodyVariable.ttf
+fontmake --keep-overlaps -g Anybody.glyphs -o variable --output-path ../fonts/variable/Anybody[slnt,wdth,wght].ttf
 
 rm -rf master_ufo/ instance_ufo/
 
 
 cd ../fonts/variable
 
-woff2_compress AnybodyVariable.ttf
+woff2_compress Anybody[slnt,wdth,wght].ttf
 
 cd ..
-
-echo "Post processing"
-
-
-ttfs=$(ls ../fonts/static/ttf/*.ttf)
-echo $ttfs
-for ttf in $ttfs
-do
-	gftools fix-dsig -f $ttf;
-	gftools fix-nonhinting $ttf $ttf.fix;
-	mv "$ttf.fix" $ttf;
-done
-rm ../fonts/static/ttf/*gasp.ttf
 
 
 
 echo "Post processing VF"
-vf=../fonts/variable/AnybodyVariable.ttf
+vf=../fonts/variable/Anybody[slnt,wdth,wght].ttf
 gftools fix-dsig -f $vf;
 gftools fix-nonhinting $vf $vf.fix;
 mv "$vf.fix" $vf;
@@ -125,3 +106,5 @@ rm $new_file
 
 
 rm ../fonts/variable/*gasp.ttf
+
+echo "Complete!"
