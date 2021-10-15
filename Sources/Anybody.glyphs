@@ -52,13 +52,13 @@ wdth = {
 };
 wght = {
 100 = 22;
-200 = 88;
-300 = 156;
-400 = 224;
-500 = 290;
-600 = 358;
-700 = 424;
-800 = 493;
+200 = 100;
+300 = 150;
+400 = 250;
+500 = 300;
+600 = 350;
+700 = 420;
+800 = 500;
 900 = 566;
 };
 };
@@ -171645,7 +171645,6 @@ unicode = 02BC;
 );
 instances = (
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171661,7 +171660,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171678,7 +171676,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171696,7 +171693,6 @@ name = Light;
 weightClass = Light;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171713,7 +171709,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171731,7 +171726,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171749,7 +171743,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171768,7 +171761,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171786,7 +171778,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171802,6 +171793,7 @@ name = Black;
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171817,6 +171809,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171834,6 +171827,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171851,6 +171845,7 @@ name = Light;
 weightClass = Light;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171867,6 +171862,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171884,6 +171880,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171901,6 +171898,7 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171919,6 +171917,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
@@ -171936,6 +171935,7 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "TTFAutohint options";
