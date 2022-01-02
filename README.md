@@ -1,7 +1,7 @@
 # Anybody
 ## 3 Axes / Variable / Upright and Italic / Sans from Condensed to Extended
 
-  ![Sample of Anybody Family.](img-anybody.png "Anybody")
+  ![Sample of Anybody Family.](documentation/img-anybody.png "Anybody")
 
 
   Currently at the [Latin Plus](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets) character set.
