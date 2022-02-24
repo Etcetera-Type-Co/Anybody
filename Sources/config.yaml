@@ -1,19 +1,13 @@
-    sources:
-      - Anybody.glyphs
-    axisOrder:
-      - slnt
-      - wdth
-      - wght
-    familyName: Anybody
-    buildStatic: False
-    stat:
-      Anybody[slnt,wdth,wght].ttf:
-      - name: Slant
-        tag: slnt
-        values:
-        - name: Upright
-          value: 0
-          flags: 2
+sources:
+  - Anybody.glyphs
+axisOrder:
+  - wdth
+  - wght
+  - ital
+familyName: Anybody
+buildStatic: False
+stat:
+  Anybody[ital,wdth,wght].ttf:
       - name: Width
         tag: wdth
         values:
@@ -51,4 +45,12 @@
           value: 800
         - name: Black
           value: 900
-          
+      - name: Italic
+        tag: ital
+        values:
+        - name: Roman
+          value: 0
+          linkedValue: 1
+          flags: 2
+        - name: Italic
+          value: 1
