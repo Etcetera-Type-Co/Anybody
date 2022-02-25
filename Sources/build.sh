@@ -13,7 +13,22 @@ fonttools varLib.instancer "../fonts/variable/Anybody[ital,wdth,wght].ttf" ital=
 echo "Fix name ID 25"
 gftools gen-stat "../fonts/variable/Anybody-Italic[wdth,wght].ttf" --axis-order 'wdth' 'wght' 'ital' --inplace
 
-echo "Fix Italic bits"
+echo "Fix style linking"
 python3 fix.py
+
+echo "fix statics and create webfonts"
+ttf=$(ls ../fonts/ttf/*.ttf)
+for font in $ttf
+do
+    ttfautohint $font $font.fix
+    mv $font.fix $font
+    gftools fix-hinting $font
+    mv $font.fix $font
+    fonttools ttLib.woff2 compress $font
+done
+
+rm -rf ../fonts/webfonts
+mkdir ../fonts/webfonts
+mv ../fonts/ttf/*.woff2 ../fonts/webfonts/
 
 echo "Complete"
