@@ -134080,7 +134080,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134112,7 +134112,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134145,7 +134145,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134178,7 +134178,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134210,7 +134210,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134243,7 +134243,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134276,7 +134276,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134309,7 +134309,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134342,7 +134342,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134505,7 +134505,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134526,7 +134526,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134549,7 +134549,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134572,7 +134572,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134594,7 +134594,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134617,7 +134617,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134640,7 +134640,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134663,7 +134663,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134686,7 +134686,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134930,7 +134930,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134962,7 +134962,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -134995,7 +134995,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135028,7 +135028,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135060,7 +135060,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135093,7 +135093,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135126,7 +135126,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135159,7 +135159,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135192,7 +135192,7 @@ axesValues = (
 customParameters = (
 {
 name = italicAngle;
-value = "-10";
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -135228,7 +135228,9 @@ value = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
 }
 );
 instanceInterpolations = {
-"A1A0948C-E637-4A65-8CCC-05505AD98C44" = 1;
+"71977205-6510-4B11-BB00-17BACA883C8F" = -0.33333;
+"A1A0948C-E637-4A65-8CCC-05505AD98C44" = 1.37377;
+"BA0CA162-2A9B-49EE-921D-3B4346C7D39F" = -0.04044;
 };
 name = Regular;
 type = variable;
