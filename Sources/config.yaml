@@ -3,382 +3,54 @@ sources:
 axisOrder:
   - wdth
   - wght
-  - ital
+  - slnt
 familyName: Anybody
 buildOTF: false
 buildWebfont: false
-autohintTTF: false
 stat:
-  Anybody[ital,wdth,wght].ttf:
-      - name: Width
-        tag: wdth
-        values:
-        - name: UltraCondensed
-          value: 50
-        - name: Condensed
-          value: 75
-        - name: Normal
-          value: 100
-          flags: 2
-        - name: Expanded
-          value: 125
-        - name: ExtraExpanded
-          value: 150
-      - name: Weight
-        tag: wght
-        values:
-        - name: Thin
-          value: 100
-        - name: ExtraLight
-          value: 200
-        - name: Light
-          value: 300
-        - name: Regular
-          value: 400
-          linkedValue: 700
-          flags: 2
-        - name: Medium
-          value: 500
-        - name: SemiBold
-          value: 600
-        - name: Bold
-          value: 700
-        - name: ExtraBold
-          value: 800
-        - name: Black
-          value: 900
-      - name: Italic
-        tag: ital
-        values:
-        - name: Roman
-          value: 0
-          linkedValue: 1
-          flags: 2
-        - name: Italic
-          value: 1
-instances:
-  Anybody[ital,wdth,wght].ttf:
-    - familyName: "Anybody"
-      styleName: "Thin"
-      coordinates:
-        wdth: 100
-        wght: 100
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "ExtraLight"
-      coordinates:
-        wdth: 100
-        wght: 200
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "Light"
-      coordinates:
-        wdth: 100
-        wght: 300
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "Regular"
-      coordinates:
-        wdth: 100
-        wght: 400
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "Medium"
-      coordinates:
-        wdth: 100
-        wght: 500
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "SemiBold"
-      coordinates:
-        wdth: 100
-        wght: 600
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "Bold"
-      coordinates:
-        wdth: 100
-        wght: 700
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "ExtraBold"
-      coordinates:
-        wdth: 100
-        wght: 800
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "Black"
-      coordinates:
-        wdth: 100
-        wght: 900
-        ital: 0
-    - familyName: "Anybody"
-      styleName: "Thin Italic"
-      coordinates:
-        wdth: 100
-        wght: 100
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "ExtraLight Italic"
-      coordinates:
-        wdth: 100
-        wght: 200
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "Light Italic"
-      coordinates:
-        wdth: 100
-        wght: 300
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "Italic"
-      coordinates:
-        wdth: 100
-        wght: 400
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "Medium Italic"
-      coordinates:
-        wdth: 100
-        wght: 500
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "SemiBold Italic"
-      coordinates:
-        wdth: 100
-        wght: 600
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "Bold Italic"
-      coordinates:
-        wdth: 100
-        wght: 700
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "ExtraBold Italic"
-      coordinates:
-        wdth: 100
-        wght: 800
-        ital: 1
-    - familyName: "Anybody"
-      styleName: "Black Italic"
-      coordinates:
-        wdth: 100
-        wght: 900
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Thin"
-      coordinates:
-        wdth: 50
-        wght: 100
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "ExtraLight"
-      coordinates:
-        wdth: 50
-        wght: 200
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Light"
-      coordinates:
-        wdth: 50
-        wght: 300
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Regular"
-      coordinates:
-        wdth: 50
-        wght: 400
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Medium"
-      coordinates:
-        wdth: 50
-        wght: 500
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "SemiBold"
-      coordinates:
-        wdth: 50
-        wght: 600
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Bold"
-      coordinates:
-        wdth: 50
-        wght: 700
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "ExtraBold"
-      coordinates:
-        wdth: 50
-        wght: 800
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Black"
-      coordinates:
-        wdth: 50
-        wght: 900
-        ital: 0
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Thin Italic"
-      coordinates:
-        wdth: 50
-        wght: 100
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "ExtraLight Italic"
-      coordinates:
-        wdth: 50
-        wght: 200
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Light Italic"
-      coordinates:
-        wdth: 50
-        wght: 300
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Italic"
-      coordinates:
-        wdth: 50
-        wght: 400
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Medium Italic"
-      coordinates:
-        wdth: 50
-        wght: 500
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "SemiBold Italic"
-      coordinates:
-        wdth: 50
-        wght: 600
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Bold Italic"
-      coordinates:
-        wdth: 50
-        wght: 700
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "ExtraBold Italic"
-      coordinates:
-        wdth: 50
-        wght: 800
-        ital: 1
-    - familyName: "Anybody UltraCondensed"
-      styleName: "Black Italic"
-      coordinates:
-        wdth: 50
-        wght: 900
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Thin"
-      coordinates:
-        wdth: 150
-        wght: 100
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "ExtraLight"
-      coordinates:
-        wdth: 150
-        wght: 200
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Light"
-      coordinates:
-        wdth: 150
-        wght: 300
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Regular"
-      coordinates:
-        wdth: 150
-        wght: 400
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Medium"
-      coordinates:
-        wdth: 150
-        wght: 500
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "SemiBold"
-      coordinates:
-        wdth: 150
-        wght: 600
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Bold"
-      coordinates:
-        wdth: 150
-        wght: 700
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "ExtraBold"
-      coordinates:
-        wdth: 150
-        wght: 800
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Black"
-      coordinates:
-        wdth: 150
-        wght: 900
-        ital: 0
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Thin Italic"
-      coordinates:
-        wdth: 150
-        wght: 100
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "ExtraLight Italic"
-      coordinates:
-        wdth: 150
-        wght: 200
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Light Italic"
-      coordinates:
-        wdth: 150
-        wght: 300
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Italic"
-      coordinates:
-        wdth: 150
-        wght: 400
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Medium Italic"
-      coordinates:
-        wdth: 150
-        wght: 500
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "SemiBold Italic"
-      coordinates:
-        wdth: 150
-        wght: 600
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Bold Italic"
-      coordinates:
-        wdth: 150
-        wght: 700
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "ExtraBold Italic"
-      coordinates:
-        wdth: 150
-        wght: 800
-        ital: 1
-    - familyName: "Anybody ExtraExpanded"
-      styleName: "Black Italic"
-      coordinates:
-        wdth: 150
-        wght: 900
-        ital: 1
+  - name: Width
+    tag: wdth
+    values:
+    - name: UltraCondensed
+      value: 50
+    - name: Condensed
+      value: 75
+    - name: Normal
+      value: 100
+      flags: 2
+    - name: Expanded
+      value: 125
+    - name: ExtraExpanded
+      value: 150
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+  - name: Slant
+    tag: slnt
+    values:
+    - name: Default
+      value: 0
+      linkedValue: -10
+      flags: 2
+    - name: Italic
+      value: -10
