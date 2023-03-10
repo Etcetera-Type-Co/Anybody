@@ -12,5 +12,5 @@ if __name__ == "__main__":
             print("Fix italic name id 6 in {}".format(font_path))
             ttFont = TTFont(f)
             ttFont["name"].setName("Anybody-ThinItalic", 6, 3, 1, 0x409)
-            ttFont["name"].setName("1.113;ETCO;Anybody-ThinItalic", 3, 3, 1, 0x409)
+            ttFont["name"].setName("1.114;ETCO;Anybody-ThinItalic", 3, 3, 1, 0x409)
             ttFont.save(font_path)
