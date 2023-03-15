@@ -158,6 +158,13 @@ lookup ccmp_latn_2;
 tag = ccmp;
 },
 {
+code = "lookup ccmp_SoftDotted {
+	sub [idotbelow iogonek]' @CombiningTopAccents by [idotless_dotbelowcomb	idotless_ogonekcomb];
+	sub [idotbelow iogonek]' @CombiningNonTopAccents @CombiningTopAccents by [idotless_dotbelowcomb	idotless_ogonekcomb];
+} ccmp_SoftDotted;";
+tag = ccmp;
+},
+{
 automatic = 1;
 code = "lookup locl_latn_0 {
 	script latn;
@@ -29858,7 +29865,7 @@ pos = (-56,0);
 },
 {
 name = ogonek;
-pos = (-14,10);
+pos = (-50,0);
 },
 {
 name = top;
@@ -29910,6 +29917,124 @@ width = 920;
 }
 );
 unicode = 305;
+},
+{
+glyphname = idotless_dotbelowcomb;
+kernLeft = i;
+kernRight = i;
+lastChange = "2023-03-15 18:49:34 +0000";
+layers = (
+{
+layerId = "4F53612F-C4F8-4368-83AD-8913BEEF8F1D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-23,0);
+ref = dotbelowcomb;
+}
+);
+width = 100;
+},
+{
+layerId = "55C4185A-9C39-4468-B19C-DE0A3E571700";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (84,0);
+ref = dotbelowcomb;
+}
+);
+width = 374;
+},
+{
+layerId = "5997A0D0-E78E-41EC-9011-DECBEAD8517D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-71,0);
+ref = dotbelowcomb;
+}
+);
+width = 521;
+},
+{
+layerId = "E5A4176B-9C10-4B01-BBC9-D7999ECBFAF8";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (26,0);
+ref = dotbelowcomb;
+}
+);
+width = 920;
+}
+);
+},
+{
+glyphname = idotless_ogonekcomb;
+lastChange = "2023-03-15 18:50:21 +0000";
+layers = (
+{
+layerId = "4F53612F-C4F8-4368-83AD-8913BEEF8F1D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-37,0);
+ref = ogonekcomb;
+}
+);
+width = 100;
+},
+{
+layerId = "55C4185A-9C39-4468-B19C-DE0A3E571700";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (92,0);
+ref = ogonekcomb;
+}
+);
+width = 374;
+},
+{
+layerId = "5997A0D0-E78E-41EC-9011-DECBEAD8517D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-280,0);
+ref = ogonekcomb;
+}
+);
+width = 521;
+},
+{
+layerId = "E5A4176B-9C10-4B01-BBC9-D7999ECBFAF8";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-51,0);
+ref = ogonekcomb;
+}
+);
+width = 920;
+}
+);
 },
 {
 color = 10;
